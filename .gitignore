@@ -1,0 +1,54 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Virtual Environment
+venv/
+env/
+ENV/
+*.pyc
+__pycache__/
+*.egg-info/
+
+# Django
+db.sqlite3
+*.sqlite
+*.sqlite3
+/staticfiles/
+/media/
+/static/
+
+# Credentials (MOST IMPORTANT!)
+credentials/
+token.json
+*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Testing
+.coverage
+.pytest_cache/
+.tox/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Node (if using npm)
+node_modules/
+package-lock.json
