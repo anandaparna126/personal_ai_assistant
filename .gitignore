@@ -52,3 +52,5 @@ dist/
 # Node (if using npm)
 node_modules/
 package-lock.json
+"venv/" 
+".env" 
